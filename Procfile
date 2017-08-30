@@ -1,1 +1,1 @@
-web: gunicorn module=manage:app
+web: python manage.py
