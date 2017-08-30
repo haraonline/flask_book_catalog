@@ -1,1 +1,1 @@
-web: gunicorn prod:app
+web: gunicorn run:app
