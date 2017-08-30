@@ -1,1 +1,1 @@
-web: gunicorn manage:flask_app
+web: gunicorn manage:app
