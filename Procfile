@@ -1,1 +1,1 @@
-web: python manage.py
+web: python run:flask_app
