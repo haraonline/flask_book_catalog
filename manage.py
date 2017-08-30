@@ -7,4 +7,4 @@ if __name__ == '__main__':
         db.create_all()
         if not User.query.filter_by(user_name='harry').first():
             User.create_user(user='harry', email='harry@potters.com', password='secret')
-    app.run()
+    app.run(host='127.0.0.1', port=5432)
