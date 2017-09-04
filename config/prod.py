@@ -1,4 +1,3 @@
-# from urllib.parse import urlparse
 import os
 
 DEBUG = False
