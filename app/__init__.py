@@ -34,4 +34,6 @@ def create_app(config_type):  # dev, test, or prod
     from app.auth import authentication
     app.register_blueprint(authentication)
 
+    with app.app_context():
+        db.create_all()
     return app
